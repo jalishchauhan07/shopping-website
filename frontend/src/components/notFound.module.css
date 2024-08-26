@@ -1,0 +1,23 @@
+.not_found_container {
+    text-align: center;
+    padding: 100px;
+}
+
+.h1 {
+    font-size: 48px;
+    color: #ff0000;
+}
+
+.p {
+    font-size: 24px;
+    color: #666666;
+}
+
+.a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}

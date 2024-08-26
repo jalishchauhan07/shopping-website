@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu {
+    flex: 1;
+}
+
+.productList {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.productItem {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
+    justify-items: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.productItem h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.productItem p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.btnField {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.editBtn,
+.deleteBtn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editBtn {
+    background-color: #16a8cc;
+    color: white;
+}
+
+.editBtn:hover {
+    background-color: #10449d;
+}
+
+.deleteBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+.deleteBtn:hover {
+    background-color: #e53935;
+}
