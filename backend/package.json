@@ -18,12 +18,11 @@
   "version": "1.0.0",
   "main": "index.ts",
   "devDependencies": {
-    "nodemon": "^3.1.4",
-    "ts-node": "^10.9.2"
+    "nodemon": "^3.1.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.ts"
+    "dev": "ts-node index.ts"
   },
   "keywords": [],
   "author": "Jalish Chauhan",
